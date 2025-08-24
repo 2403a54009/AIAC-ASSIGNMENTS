@@ -1,4 +1,4 @@
-"""import hashlib
+import hashlib
 
 def hash_password(password):
     # Hash the password using SHA-256
@@ -156,7 +156,7 @@ def factorial(n):
 
 # Summary:
 # The function calls itself with a decremented value of n until it reaches the base case (n == 0 or n == 1).
-# Each recursive call multiplies n by the factorial of (n-1), building up the result as the call stack unwinds."""
+# Each recursive call multiplies n by the factorial of (n-1), building up the result as the call stack unwinds.
 
 #task7
 def generate_support_message(name, issue, title=None):
